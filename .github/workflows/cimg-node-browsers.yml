@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - 'cimg-node-browsers'
+      - 'cimg-node-browsers/**'
 
 env:
   CONTEXT_PATH: "./cimg-node-browsers"
