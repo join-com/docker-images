@@ -24,7 +24,7 @@ jobs:
         password: ${{ secrets.DOCKERHUB_TOKEN }}
 
     - name: Set env vars
-      run: echo "IMG_VERSION=$(grep 'ARG ' ${{ env.CONTEXT_PATH }}/Dockerfile | cut -d '=' -f2 )" >> $GITHUB_ENV
+      run: echo "IMG_VERSION=$(grep 'ARG CIMG_NODE_VERSION' ${{ env.CONTEXT_PATH }}/Dockerfile | cut -d '=' -f2 )" >> $GITHUB_ENV
 
     - name: Build and push
       uses: docker/build-push-action@v2
