@@ -11,7 +11,7 @@ env:
   CONTEXT_PATH: "./cimg-node-browsers"
 
 jobs:
-  pgbpouncer:
+  cimg-node-browsers:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
