@@ -1,5 +1,5 @@
 IMAGE_NAME=joinsolutions/chromium
-CHROMIUM_VERSION=99.0.4844.84
+CHROMIUM_VERSION=101.0.4951.54
 
 docker:
 	docker build --pull -t $(IMAGE_NAME):$(CHROMIUM_VERSION) .

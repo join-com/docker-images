@@ -1,4 +1,4 @@
-ARG CIMG_NODE_VERSION=14.19.0
+ARG CIMG_NODE_VERSION=14.19.1
 
 FROM cimg/node:${CIMG_NODE_VERSION}-browsers
 
@@ -7,7 +7,7 @@ RUN   sudo apt-get update && \
       sudo apt-get install -y --no-install-recommends --no-upgrade \
       libgconf-2-4
 
-ENV CHROME_VERSION 99.0.4844.84
+ENV CHROME_VERSION 101.0.4951.54
 ENV CHROME_PATH /opt/google/chrome/google-chrome
 
 # install Chrome browser
