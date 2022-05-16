@@ -11,7 +11,7 @@ env:
   CONTEXT_PATH: "./airflow"
 
 jobs:
-  chromium:
+  airflow:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
