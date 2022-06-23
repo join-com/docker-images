@@ -1,4 +1,4 @@
-FROM bitnami/airflow:2.2.5
+FROM bitnami/airflow:2.3.2
 
 USER root
 # hadolint ignore=DL3013,DL3042,SC1091
