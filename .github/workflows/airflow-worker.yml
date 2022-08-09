@@ -12,7 +12,7 @@ env:
   CONTEXT_PATH: "./airflow-worker"
 
 jobs:
-  airflow:
+  airflow-worker:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
