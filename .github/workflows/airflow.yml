@@ -30,4 +30,4 @@ jobs:
         context: ${{ env.CONTEXT_PATH }}/
         file: ${{ env.CONTEXT_PATH }}/Dockerfile
         push: true
-        tags: joinsolutions/airflow:2.3.3-b6
+        tags: joinsolutions/airflow:2.3.3-b7
