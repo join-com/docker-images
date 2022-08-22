@@ -32,4 +32,4 @@ jobs:
         context: ${{ env.CONTEXT_PATH }}/
         file: ${{ env.CONTEXT_PATH }}/Dockerfile
         push: true
-        tags: joinsolutions/cimg-node:${{ env.IMG_VERSION }}-browsers
+        tags: joinsolutions/cimg-node:${{ env.IMG_VERSION }}-browsers-104

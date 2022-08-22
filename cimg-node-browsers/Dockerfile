@@ -7,7 +7,7 @@ RUN   sudo apt-get update && \
       sudo apt-get install -y --no-install-recommends --no-upgrade \
       libgconf-2-4
 
-ENV CHROME_VERSION 103.0.5060.134
+ENV CHROME_VERSION 104.0.5112.101
 ENV CHROME_PATH /opt/google/chrome/google-chrome
 
 # install Chrome browser
