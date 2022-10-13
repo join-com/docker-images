@@ -32,4 +32,5 @@ fi
   --remote-debugging-port="$RD_PORT" \
   --safebrowsing-disable-auto-update \
   --user-data-dir=/home/chromium/ \
+  2>&1 \
   "$@"
