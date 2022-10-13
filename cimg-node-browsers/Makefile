@@ -1,5 +1,5 @@
 IMAGE_NAME=joinsolutions/cimg-node
-IMAGE_VERSION=14.20.0-browsers
+IMAGE_VERSION=14.20.1-browsers
 
 docker:
 	docker build --pull -t $(IMAGE_NAME):$(IMAGE_VERSION) .

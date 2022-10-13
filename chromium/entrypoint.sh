@@ -19,6 +19,10 @@ fi
   --disable-prompt-on-repost \
   --disable-sync \
   --disable-translate \
+  --disable-webaudio \
+  --disable-audio-input \
+  --disable-audio-output \
+  --disable-setuid-sandbox \
   --headless \
   --hide-scrollbars \
   --ignore-certificate-errors \
@@ -31,6 +35,7 @@ fi
   --remote-debugging-address=0.0.0.0 \
   --remote-debugging-port="$RD_PORT" \
   --safebrowsing-disable-auto-update \
+  --single-process \
   --user-data-dir=/home/chromium/ \
   2>&1 \
   "$@"
