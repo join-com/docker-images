@@ -1,4 +1,4 @@
-FROM apache/airflow:2.4.1
+FROM apache/airflow:2.4.2
 
 # hadolint ignore=DL3013,DL3042,SC1091
 RUN pip install --no-cache-dir \
