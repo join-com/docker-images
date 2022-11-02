@@ -10,4 +10,5 @@ RUN pip install --no-cache-dir \
       google-api-python-client==1.12.11 \
       google-auth-oauthlib==0.5.3 \
       segment-analytics-python==2.2.0 \
-      analytics-python==1.4.0
+      analytics-python==1.4.0 \
+      google-ads==18.1.0
