@@ -6,8 +6,9 @@ RUN pip install --no-cache-dir \
       gspread==5.6.2 \
       oauth2client==4.1.3 \
       requests==2.28.1 \
-      google-cloud-bigquery==3.3.5 \
+      google-cloud-bigquery==3.2.0 \
       google-api-python-client==1.12.11 \
       google-auth-oauthlib==0.7.0 \
       segment-analytics-python==2.2.0 \
-      analytics-python==1.4.0
+      analytics-python==1.4.0 \
+      google-ads==18.0.0
