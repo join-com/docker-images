@@ -2,7 +2,6 @@ FROM verdaccio/verdaccio:5.21.1
 
 USER root
 RUN npm install -g verdaccio-github-oauth-ui@6 && \
-  npm install -g verdaccio-google-cloud && \
-  npm install  -g verdaccio-openmetrics
+  npm install -g verdaccio-google-cloud
 
 USER $VERDACCIO_USER_UID
