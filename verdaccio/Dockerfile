@@ -11,7 +11,7 @@ USER root
 RUN npm install -g verdaccio-github-oauth-ui@6 && \
   npm install -g verdaccio-google-cloud
 
-OPY --chown=$VERDACCIO_USER_UID:root --from=builder \
+COPY --chown=$VERDACCIO_USER_UID:root --from=builder \
   /verdaccio/plugins/node_modules/@xlts.dev/verdaccio-prometheus-middleware \
   /verdaccio/plugins/verdaccio-metrics
 
