@@ -12,7 +12,7 @@ env:
   CONTEXT_PATH: './mermaid'
 
 jobs:
-  verdaccio:
+  mermaid:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -30,4 +30,4 @@ jobs:
           context: ${{ env.CONTEXT_PATH }}/
           file: ${{ env.CONTEXT_PATH }}/Dockerfile
           push: true
-          tags: joinsolutions/mermaid:28032023
+          tags: joinsolutions/mermaid:2803202301
