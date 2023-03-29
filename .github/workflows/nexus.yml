@@ -27,7 +27,7 @@ jobs:
       - name: Build and push
         uses: docker/build-push-action@v4
         with:
+          push: true
           context: ${{ env.CONTEXT_PATH }}/
           file: ${{ env.CONTEXT_PATH }}/Dockerfile
-          push: true
           tags: joinsolutions/nexus:3.49.0
