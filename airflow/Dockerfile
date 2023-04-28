@@ -25,7 +25,6 @@ RUN /opt/airflow/join/bin/pip install --no-cache-dir \
       requests==2.29.0 \
       google-cloud-bigquery==3.10.0 \
       google-api-python-client==2.86.0 \
-      google-auth-oauthlib==1.0.0 \
       segment-analytics-python==2.2.2 \
       google-ads==21.0.0 \
       simple_salesforce==1.12.3 \
