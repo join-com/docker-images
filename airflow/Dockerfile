@@ -24,11 +24,13 @@ RUN /opt/airflow/join/bin/pip install --no-cache-dir \
       oauth2client==4.1.3 \
       requests==2.29.0 \
       google-cloud-bigquery==3.10.0 \
-      google-api-python-client==2.86.0 \
       segment-analytics-python==2.2.2 \
-      google-ads==21.0.0 \
+      google-ads==18.2.0 \
       simple_salesforce==1.12.3 \
-      apache-airflow==2.5.3 \
-      apache-airflow-providers-google==10.0.0
+      apache-airflow==2.5.3
+
+RUN  echo "google-ads==18.2.0" > constrains.txt && \
+      /opt/airflow/join/bin/pip install --no-cache-dir \
+      apache-airflow-providers-google==10.0.0 -c constrains.txt
 
 ENV PIP_USER=true
