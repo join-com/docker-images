@@ -29,6 +29,7 @@ RUN /opt/airflow/join/bin/pip install --no-cache-dir \
       segment-analytics-python==2.2.2 \
       google-ads==21.0.0 \
       simple_salesforce==1.12.3 \
-      apache-airflow==2.5.3
+      apache-airflow==2.5.3 \
+      apache-airflow-providers-google==10.0.0
 
 ENV PIP_USER=true
