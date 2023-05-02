@@ -5,8 +5,6 @@ RUN pip install --no-cache-dir \
       apache-airflow-providers-dbt-cloud==2.3.1 \
       gspread==5.8.0 \
       oauth2client==4.1.3 \
-      requests==2.28.1 \
-      google-cloud-bigquery==3.10.0 \
       segment-analytics-python==2.2.0 \
       analytics-python==1.4.0 \
       simple_salesforce==1.12.3
