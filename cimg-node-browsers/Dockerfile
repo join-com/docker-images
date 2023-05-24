@@ -5,7 +5,7 @@ FROM cimg/node:${CIMG_NODE_VERSION}-browsers
 # hadolint ignore=DL3004
 RUN   sudo apt-get update && \
       sudo apt-get install -y --no-install-recommends --no-upgrade \
-      libgconf-2-4
+      libgconf-2-4 libvulkan1 libu2f-udev
 
 ENV CHROME_VERSION 113.0.5672.126
 ENV CHROME_PATH /opt/google/chrome/google-chrome
