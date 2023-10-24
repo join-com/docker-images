@@ -1,10 +1,12 @@
-FROM apache/airflow:2.6.0
+FROM apache/airflow:2.7.2
 
 # hadolint ignore=DL3013,DL3042,SC1091
 RUN pip install --no-cache-dir \
-      apache-airflow-providers-dbt-cloud==2.3.1 \
-      gspread==5.8.0 \
+      apache-airflow-providers-dbt-cloud==3.4.0 \
+      gspread==5.12.0 \
       oauth2client==4.1.3 \
+      google-ads>=18.1.0 \
       segment-analytics-python==2.2.0 \
       analytics-python==1.4.0 \
-      simple_salesforce==1.12.3
+      simple_salesforce==1.12.5 \
+      grequests==0.7.0
