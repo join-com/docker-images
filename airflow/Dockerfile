@@ -8,5 +8,5 @@ RUN pip install --no-cache-dir \
       google-ads>=18.1.0 \
       segment-analytics-python==2.2.0 \
       analytics-python==1.4.0 \
-      simple_salesforce==1.12.5 \
-      grequests==0.7.0
+      grequests==0.7.0 \
+      simple_salesforce==1.12.5
