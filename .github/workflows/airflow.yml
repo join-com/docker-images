@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v2
@@ -33,4 +33,4 @@ jobs:
           context: ${{ env.CONTEXT_PATH }}/
           file: ${{ env.CONTEXT_PATH }}/Dockerfile
           push: true
-          tags: joinsolutions/airflow:2.7.2
+          tags: joinsolutions/airflow:2.7.3
