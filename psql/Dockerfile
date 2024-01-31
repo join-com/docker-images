@@ -2,4 +2,4 @@ FROM alpine:3.19
 
 RUN apk --update add postgresql16-client
 
-ENTRYPOINT ["psql"]
+CMD ["psql"]
